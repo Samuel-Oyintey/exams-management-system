@@ -1,0 +1,392 @@
+ @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Quicksand&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Quicksand:wght@400;500;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Quicksand:wght@400;500;600;700&display=swap');
+ /* default container styling */
+ /* * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ } */
+ /* navbar styling starts */
+ /* navbar links styling starts */
+ /* .container {
+     font-size: 14px;
+ } */
+ /*
+
+/* navbar button styling  */
+ 
+ .container #button {
+     background: #372522;
+     color: white;
+     width: 82px;
+     height: 38px;
+     border: none;
+     margin-left: 5px;
+     font-family: manrope;
+     font-size: 12px;
+     margin-top: 12px;
+ }
+ /* navbar styling ends*/
+ /* join us button */
+ 
+ .bg-white {
+     border-radius: 2px;
+     border: none;
+     width: 134px;
+     height: 38px;
+     font-weight: 200;
+ }
+ /* about-us image */
+ /* img {
+     height: 50vh;
+     width: 100%;
+     filter: brightness(50%);
+     object-fit: cover;
+ } */
+ /* about-us */
+ 
+ #about-us {
+     /* position: absolute;
+     top: 25%;
+     left: 50%; */
+     color: white;
+     font-weight: 700;
+     font-size: 60px;
+     /* background-color: red; */
+     padding: 0;
+     margin: 0;
+     /* background-image: url('../images/background.jpg'); */
+     padding-top: 50px;
+     padding-bottom: 50px;
+     /* transform: translate(-50%, -50%); */
+ }
+ 
+ .subpage-title {
+     color: white;
+     font-weight: 700 !important;
+     font-size: 60px !important;
+     padding: 0;
+     margin: 0;
+     background-image: url('../images/backgroung1.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ 
+ .subpage-title h1 {
+     font-weight: 700 !important;
+     font-size: 60px !important;
+ }
+ /* left column */
+ /* .col-4 {
+     width: 50%;
+ } */
+ /* mission button */
+ 
+ #mission-visionBtn {
+     border: 1px solid #404040;
+     border-radius: 10px;
+     padding: 8px;
+     background: transparent;
+     font-size: 15px;
+     font-weight: 600;
+     margin: 10px;
+ }
+ /* mission hovering */
+ 
+ #mission-visionBtn:hover {
+     background: #404040;
+     color: white;
+ }
+ /* mission & vision-statement */
+ 
+ #mission-statement {
+     width: 100%;
+     line-height: 25px;
+     font-size: 16px;
+     padding-top: 30px;
+ }
+ /* overview button*/
+ 
+ #overviewBtn {
+     border: 1px solid #404040;
+     border-radius: 10px;
+     padding: 8px;
+     background: transparent;
+     font-size: 15px;
+     font-weight: 600;
+     margin: 10px;
+ }
+ /* overview hovering */
+ 
+ #overviewBtn:hover {
+     background: #404040;
+     color: white;
+ }
+ 
+ #team {
+     font-size: 25px;
+     font-weight: 600;
+ }
+ /* Regional Executives */
+ 
+ #regExecutives {
+     margin-top: 8rem;
+     font-size: 35px;
+     background: #404040;
+     color: white;
+     padding: 5px;
+ }
+ /* overview-heading */
+ 
+ #overview-heading {
+     margin-top: 6rem;
+     background: #404040;
+     color: white;
+     font-size: 35px;
+     padding: 5px;
+ }
+ /* overview-statement */
+ 
+ #overview-statement {
+     width: 100%;
+     line-height: 25px;
+     font-size: 16px;
+     padding-top: 30px;
+ }
+ /* mission-heading */
+ 
+ #mission-heading {
+     margin-top: 6rem;
+     background: #404040;
+     color: white;
+     font-size: 35px;
+     padding: 5px;
+ }
+ /* vision-heading */
+ 
+ #vision-heading {
+     margin-top: 6rem;
+     background: #404040;
+     color: white;
+     font-size: 35px;
+     padding: 5px;
+ }
+ /* vision-statement */
+ 
+ #vision-statement {
+     width: 100%;
+     line-height: 25px;
+     font-size: 16px;
+     padding-top: 30px;
+ }
+ 
+ .image {
+     /* margin: auto; */
+     border-radius: 5%;
+     height: 100%;
+     width: 100%;
+     text-align: center;
+     filter: brightness(100%);
+ }
+ 
+ .image:hover {
+     filter: brightness(80%);
+     transition: 1s;
+ }
+ 
+ .card-img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     border-radius: 10%;
+     filter: brightness(100%);
+ }
+ 
+ #our-staff {
+     font-size: 25px;
+     margin: 40px 30px;
+     font-weight: 600;
+     padding-top: 30px;
+ }
+ 
+ .card {
+     border: none;
+ }
+ 
+ .card-title {
+     font-size: 16px;
+ }
+ /* footer */
+ /* footer list items */
+ /* footer-text */
+ /* styling ends */
+ /* 
+*
+***
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+*********** 
+*
+**
+***
+****
+***** 
+******
+*******
+********
+*********
+**********
+*********** 
+*/
+ /* media Queries begins */
+ /* for mobile screen */
+ 
+ @media screen and (min-width: 330px) and (max-width:768px) {
+     /* hamburger background */
+     .container-fluid img {
+         height: 50%;
+     }
+     /* about us landing page text */
+     .container-fluid #about-us {
+         font-size: 2rem;
+         top: 20%;
+     }
+     /* about us row-container column 8*/
+     .container>.row>.col-8 {
+         width: 100%;
+     }
+     /* about us overview-heading */
+     #overview-heading {
+         text-align: center;
+         margin: 50px 0 5px;
+         width: 100%;
+         font-size: 30px;
+     }
+     /* about us overview-statement */
+     #overview-statement {
+         text-align: center;
+         font-size: 14px;
+     }
+     /* about us mission-heading */
+     #mission-heading {
+         text-align: center;
+         margin: 50px 0 5px;
+         width: 100%;
+         font-size: 30px;
+     }
+     /* about us mission-statement  */
+     #mission-statement {
+         text-align: center;
+         font-size: 14px;
+     }
+     /* about us vision-heading  */
+     #vision-heading {
+         text-align: center;
+         margin: 50px 0 5px;
+         width: 100%;
+         font-size: 30px;
+     }
+     /* about us vision-statement */
+     #vision-statement {
+         text-align: center;
+         font-size: 14px;
+     }
+     /* about us row-container column 4*/
+     .container .row .col-4 {
+         width: 100%;
+     }
+     /* about us regional Executives heading*/
+     #regExecutives {
+         text-align: center;
+         margin: 50px 0 5px;
+         width: 100%;
+         font-size: 25px;
+     }
+     /* about us regional Executives team-text*/
+     #team {
+         font-size: 23px;
+         text-align: center;
+     }
+     /* about us regional executives images */
+     .image {
+         width: 100%;
+     }
+     /* about us regional executives images-description */
+     .pt-3 {
+         width: 100%;
+         text-align: center;
+         font-size: 12px;
+         line-height: 20px;
+     }
+     /* about us our staff text */
+     #our-staff {
+         font-size: 23px;
+         text-align: center;
+         margin: 20px;
+     }
+     .our-staff {
+         margin-top: 25rem;
+     }
+     .card {
+         width: 60%;
+         margin-left: 20%;
+     }
+     .card-title {
+         width: 100%;
+         text-align: center;
+         font-size: 12px;
+         line-height: 20px;
+         margin-bottom: 0;
+     }
+     /* footer */
+     footer {
+         margin-top: 4rem;
+     }
+     /* footer list items */
+     .text-decoration-none {
+         padding-left: 0rem;
+     }
+     /* footer columns */
+     #GCCI {
+         margin: auto;
+         padding: 10px 2px;
+         text-align: center;
+     }
+     /* footer columns */
+     .col-sm-3 {
+         margin-left: auto;
+         width: 100%;
+         text-align: center;
+     }
+     /* footer columns */
+     #footer-column {
+         font-size: 0px;
+     }
+     .fa-solid {
+         display: flex;
+     }
+     ul .navbar {
+         display: none;
+     }
+     #button {
+         background: black;
+     }
+ }
+ /* tablet */
+ 
+ @media screen and (min-width: 769px) and (max-width: 992px) {
+     .our-staff {
+         margin-top: 25rem;
+     }
+ }

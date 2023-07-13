@@ -1,0 +1,9 @@
+---
+Name: approutes
+After: framework/_config/routes#coreroutes
+---
+SilverStripe\Control\Director:
+  rules:
+        'register' : 'RegisterPageController'
+
+        'dashboard': 'DashboardController'

@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Quicksand:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.login-container {
+  width: 1000px;
+  height: 600px;
+  margin: 100px auto;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 100px rgba(63, 63, 63, 0.3);
+  -moz-box-shadow: 0 10px 100px rgba(71, 71, 71, 0.3);
+  box-shadow: 0 10px 100px rgba(85, 85, 85, 0.3);
+}
+.login-form {
+  padding: 100px 40px;
+  width: calc(100% - 710px);
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+.login-form h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.667em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+}
+.login-form input {
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: solid 1px #bfbfbf;
+  font-family: 'Source Sans Pro', sans-serif;
+  -moz-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  -o-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  color: #1162fb;
+  margin-bottom: 45px;
+  font-size: 1em;
+}
+.login-form input:focus, .container .login-form input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+.login-form input:focus {
+  border-color: #1162fb;
+}
+.login-form input::-webkit-input-placeholder {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.login-form input:focus::-webkit-input-placeholder {
+  color: #1162fb;
+  font-size: 0.778em;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  visibility: visible;
+}
+.login-form .login-btn {
+  background-color: #1162fb;
+  border: 0;
+  color: #fff;
+  padding: 15px 55px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.login-form .login-btn:focus {
+  outline: none;
+}
+
+.login-form ul {
+  margin: 0;
+  padding: 0 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.login-form ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.login-form ul li:last-child {
+  float: right;
+}
+.login-form ul li a {
+  text-decoration: none;
+  color: #1162fb;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.container1 {
+  width: 400px;
+  height: 700px;
+  margin: 100px auto;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 100px rgba(63, 63, 63, 0.3);
+  -moz-box-shadow: 0 10px 100px rgba(71, 71, 71, 0.3);
+  box-shadow: 0 10px 100px rgba(85, 85, 85, 0.3);
+}
+
+.registration-form {
+  padding: 80px 40px;
+  width: 300px;
+  display: inline-block;
+  position: relative;
+}
+
+.registration-form h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.667em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+}
+
+.registration-form input {
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: solid 1px #bfbfbf;
+  font-family: 'Source Sans Pro', sans-serif;
+  -moz-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  -o-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  color: #1162fb;
+  margin-bottom: 45px;
+  font-size: 1em;
+}
+
+.registration-form input:focus,
+.registration-form input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+.registration-form input:focus {
+  border-color: #1162fb;
+}
+
+.registration-form input::-webkit-input-placeholder {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.registration-form input:focus::-webkit-input-placeholder {
+  color: #1162fb;
+  font-size: 0.778em;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  visibility: visible;
+}
+
+.registration-form .registration-btn {
+  background-color: #1162fb;
+  border: 0;
+  color: #fff;
+  padding: 15px 103px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.registration-form .registration-btn:focus {
+  outline: none;
+}
+
+.registration-form p {
+  margin: 0;
+  padding: 25px 0;
+  font-family: 'Source Sans Pro',
+  sans-serif;
+}
+
+.registration-form p a {
+  text-decoration: none;
+  color: #1162fb;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img-content {
+  width: calc(100% - 370px);
+  height: 600px;
+  display: inline-block;
+  background-image: url("../images/video.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  
+}
+/*  Dashboard Custom CSS */
+
+.sidebar .nav>li.active-pro {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+
+.sidebar .nav>li.active-pro a {
+  background: #ffffff24;
+  opacity: 1;
+  color: #131313;
+}
+
+@media all and (min-width: 992px) {
+  .sidebar .nav>li.active-pro {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+  }
+}
+
+.sidebar .nav li.active>a:before {
+  border-right: 17px solid #DDDDDD;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+
+footer {
+  color: #1162fb;
+  font-weight: 600;
+  position: fixed;
+  width: 83%;
+  bottom: 0;
+  height: 60px;
+  background-color: #fff;
+}

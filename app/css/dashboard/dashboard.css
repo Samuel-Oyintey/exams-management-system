@@ -1,0 +1,194 @@
+.speakers {
+    padding-left: 2rem !important;
+}
+
+.symposia img {
+    width: 500px !important;
+    height: 250px !important;
+}
+
+.d-images {
+    padding-left: 8px !important;
+}
+
+.d-images img {
+    height: 18px;
+    margin-left: -10px;
+}
+
+.wallet {
+    background: #404040;
+    color: #fff !important;
+}
+
+.wallet p {
+    color: #fff;
+}
+
+.wallet p span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.wallet .btn {
+    background: #fff;
+    color: #404040;
+}
+
+.active {
+    color: #372522 !important;
+}
+
+
+/* calendar */
+
+.wrapper {
+    margin: auto;
+    /* max-width: 1100px; */
+}
+
+.container-calendar {
+    background: #ffffff;
+    padding: 15px;
+    max-width: 475px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.button-container-calendar button {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #00a2b7;
+    color: #fff;
+    border: 1px solid #0aa2b5;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-calendar td,
+.table-calendar th {
+    padding: 5px;
+    /* border: 1px solid #e2e2e2; */
+    text-align: center;
+    vertical-align: top;
+}
+
+.table-calendar td:hover {
+    background-color: #bfc5c5;
+    border-radius: 50%;
+}
+
+.date-picker.selected {
+    font-weight: bold;
+    outline: 1px dashed #00BCD4;
+}
+
+.date-picker.selected span {
+    border-bottom: 2px solid currentColor;
+}
+
+
+/* sunday */
+
+.date-picker:nth-child(1) {
+    color: red;
+}
+
+
+/* friday */
+
+.date-picker:nth-child(6) {
+    color: green;
+}
+
+#monthAndYear {
+    text-align: center;
+    margin-top: 0;
+}
+
+.button-container-calendar {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+}
+
+.footer-container-calendar {
+    margin-top: 1em;
+    border-top: 1px solid #dadada;
+    padding: 10px 0;
+}
+
+.footer-container-calendar select {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #ffffff;
+    color: #585858;
+    border: 1px solid #bfc5c5;
+    border-radius: 3px;
+    padding: 5px 1em;
+}
+
+
+/* Style the tab */
+
+.tab {
+    overflow: hidden;
+    border: none;
+    /* background-color: #f1f1f1; */
+}
+
+
+/* Style the buttons that are used to open the tab content */
+
+.tab button {
+    background-color: #fff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* padding: 5px 5px 0px 0px; */
+    transition: 0.3s;
+}
+
+
+/* Change background color of buttons on hover */
+
+
+/* .tab button:hover {
+    border-bottom: 2px solid #9CC12A;
+} */
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    border-bottom: 3px solid #404040;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+}
+
+.dash-events .card {
+    width: 18rem !important;
+    height: 400px !important;
+}
+
+.dash-events .card img {
+    width: auto;
+    height: 170px;
+}
